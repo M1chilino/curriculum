@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Matheus Michilino">
+    <meta name="keywords" content="Curriculum, Profile">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/fonts.css">
+    <script src="javascript/script.js"></script>
+
+    <title>Matheus Michilino</title>
+</head>
+
+<body>
+    <main>
+        <aside class="menu-lateral">
+            <div class="profile">
+                <div>
+                    <img id="avatar" src="components/img/avatar2.jpg" alt="">
+                </div>
+                <div class="name-formation">
+                    <h2>Matheus Michilino</h2>
+                    <p>Robotic System Integrator</p>
+                    <p>Industrial Mechatronics</p>
+                    <p>Front-end Starter</p>
+                </div>
+            </div>
+
+            <div class="info">
+                <div class="info1">
+                    <p>País:</p>
+                    <p>Cidade:</p>
+                    <p>Idade:</p>
+                </div>
+                <div class="info2">
+                    <p>Brasil</p>
+                    <p>São Carlos - SP</p>
+                    <p>21</p>
+                </div>
+            </div>
+
+            <!--##### CIRCULAR GRAPH #####-->
+            <div class="graph">
+                <div class="graph1">
+                    <div class="circular-progress1">
+                        <span class="progress-value">85%</span>
+                    </div>
+                    <span class="text-progress">FANUC Robot</span>
+                </div>
+                <div class="graph2">
+                    <div class="circular-progress2">
+                        <span class="progress-value">33%</span>
+                    </div>
+                    <span class="text-progress">HTML & CSS</span>
+                </div>
+                <div class="graph2">
+                    <div class="circular-progress3">
+                        <span class="progress-value">5%</span>
+                    </div>
+                    <span class="text-progress">Script Batch</span>
+                </div>
+            </div>
+            <!--#########################-->
+
+            <div class="formation">
+                <p id="formacao">Formação:</p>
+                <p class="formado">Tecnólogo Mecatrônica Industrial</p>
+                <p class="formado">Programador e Operador de Robôs</p>
+                <p class="formado">Técnico em Mecânica</p>
+            </div>
+        </aside>
+
+        <section class="container">
+            <div class="tab">
+                <button class="tablinks active" onclick="openTab(event, 'Acad')">Vida Acadêmica</button>
+                <button class="tablinks" onclick="openTab(event, 'Exp')">Experiências</button>
+                <button class="tablinks" onclick="openTab(event, 'Fut')">Futuro</button>
+                <button class="tablinks" onclick="openTab(event, 'Cont')">Contato</button>
+            </div>
+
+            <div id="Acad" class="tabcontent">
+                <h3>Vida acadêmica</h3>
+                <p>London is the capital city of England.</p>
+            </div>
+
+            <div id="Exp" class="tabcontent">
+                <h3>Experiências</h3>
+                <p>Paris is the capital of France.</p>
+            </div>
+
+            <div id="Fut" class="tabcontent">
+                <h3>Futuro</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+
+            <div id="Cont" class="tabcontent">
+                <h3>Contato</h3>
+                <p>Tokyo is the capital of Japan.</p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
